@@ -1,0 +1,43 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<CommandTable xmlns="http://schemas.microsoft.com/VisualStudio/2005-10-18/CommandTable" xmlns:xs="http://www.w3.org/2001/XMLSchema">
+
+  <Extern href="stdidcmd.h"/>
+  <Extern href="vsshlids.h"/>
+  <Include href="KnownImageIds.vsct"/>
+  <Include href="VSGlobals.vsct"/>
+
+  <Commands package="PasteAlignedGuid">
+    <Groups>
+      <Group guid="PasteAlignedGuid" id="PasteAlignedMenuGroup" priority="0x0600">
+        <Parent guid="VSMainMenu" id="Edit"/>
+      </Group>
+      <Group guid="PasteAlignedGuid" id="PasteAlignedMenuGroup" priority="0x0600">
+        <Parent guid="guidSHLMainMenu" id="IDM_VS_CTXT_CODEWIN" />
+      </Group>
+    </Groups>
+
+    <!--This section defines the elements the user can interact with, like a menu command or a button
+        or combo box in a toolbar. -->
+    <Buttons>
+      <Button guid="PasteAlignedGuid" id="PasteAlignedCommand" priority="0x0100" type="Button">
+        <Parent guid="PasteAlignedGuid" id="PasteAlignedMenuGroup" />
+        <Icon guid="ImageCatalogGuid" id="PasteTable" />
+        <CommandFlag>IconIsMoniker</CommandFlag>
+        <CommandFlag>DefaultDisabled</CommandFlag>
+        <CommandFlag>DefaultInvisible</CommandFlag>
+        <CommandFlag>DynamicVisibility</CommandFlag>
+        <Strings>
+          <ButtonText>Paste Aligned</ButtonText>
+          <LocCanonicalName>.Paste.Aligned</LocCanonicalName>
+        </Strings>
+      </Button>
+    </Buttons>
+  </Commands>
+
+  <Symbols>
+    <GuidSymbol name="PasteAlignedGuid" value="{88419a58-a1cb-4cca-ba77-92c68372bc3e}">
+      <IDSymbol name="PasteAlignedMenuGroup" value="0x0001" />
+      <IDSymbol name="PasteAlignedCommand" value="0x0100" />
+    </GuidSymbol>
+  </Symbols>
+</CommandTable>
