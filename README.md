@@ -7,8 +7,8 @@
 [![VS marketplace](https://img.shields.io/visual-studio-marketplace/v/YevhenCherkes.PasteAligned.svg?label=VS%20marketplace&style=for-the-badge)](https://marketplace.visualstudio.com/items?itemName=YevhenCherkes.PasteAligned)
 [![VS installs](https://img.shields.io/visual-studio-marketplace/i/YevhenCherkes.PasteAligned?label=VS%20installs&style=for-the-badge)](https://marketplace.visualstudio.com/items?itemName=YevhenCherkes.PasteAligned)
 
-Allows align pasted code relatively same column.
-It's opposite in effect to Mads Kriestens [Copy Nice](https://github.com/madskristensen/CopyNice) extension.
+Aligns pasted code relative to the first line column.
+This extension is complementary to Mad's Kristen [Copy Nice](https://github.com/madskristensen/CopyNice) extension.
 
 ![PasteAlignedDemo](https://github.com/ycherkes/PasteAligned/assets/13467759/5292786b-5554-4abc-932c-a5172fdf7b6c)
 
