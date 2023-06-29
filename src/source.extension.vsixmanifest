@@ -1,9 +1,10 @@
 <?xml version="1.0" encoding="utf-8"?>
 <PackageManifest Version="2.0.0" xmlns="http://schemas.microsoft.com/developer/vsx-schema/2011" xmlns:d="http://schemas.microsoft.com/developer/vsx-schema-design/2011">
     <Metadata>
-        <Identity Id="PasteAligned.7c0fc558-6381-4143-bd58-59d4f2849d42" Version="1.0" Language="en-US" Publisher="Yevhen Cherkes" />
+        <Identity Id="PasteAligned.7c0fc558-6381-4143-bd58-59d4f2849d42" Version="1.0.1" Language="en-US" Publisher="Yevhen Cherkes" />
         <DisplayName>Paste Aligned</DisplayName>
-        <Description xml:space="preserve">Paste Aligned.</Description>
+        <Description xml:space="preserve">Aligns pasted code relative to the first line column.</Description>
+        <License>LICENSE</License>
         <Icon>Resources\Icon.png</Icon>
         <PreviewImage>Resources\Icon.png</PreviewImage>
         <Preview>true</Preview>
