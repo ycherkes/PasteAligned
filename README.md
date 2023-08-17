@@ -1,3 +1,5 @@
+# Archived as Visual Studio correctly formats pasted code starting from version 17.7.0.
+
 # [![Made in Ukraine](https://img.shields.io/badge/made_in-ukraine-ffd700.svg?labelColor=0057b7&style=for-the-badge)](https://stand-with-ukraine.pp.ua) [Stand with the people of Ukraine: How to Help](https://stand-with-ukraine.pp.ua)
 
 <img src="https://yevhencherkes.gallerycdn.vsassets.io/extensions/yevhencherkes/pastealigned/1.0/1687961834569/Microsoft.VisualStudio.Services.Icons.Default" width="100" height="100" />
